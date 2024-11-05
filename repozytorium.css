@@ -1,38 +1,83 @@
+
+/* --------------------------------GŁOWNY-------------------------------- */
 body{
     margin: 0;
     padding: 0;
-    background-color: #80CED7;
+    background-color: #9AD1D4;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
-    background-color: #003249;
+    background-color: #80CED7;
     position: absolute;
     top: 0;
     width: 100%;
     height: 15%;
-
-    color: #CCDBDC;
+    box-sizing: border-box;
+    border-bottom: #CCDBDC solid 1px;
+    color: #003249;
     
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* ----------------------------------MAIN-------------------------------------- */
+main{
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+/* --------------PROJECTS----------------- */
+#projects{
+    display: flex;
+    padding: 5%;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 150px;
+    margin: 10px; 
+    
+    background-color: #003249;
+    border-radius: 15px;
+    border: solid 1px #003249;
+    
+    
+    
+}
+.project a{
+    text-decoration: none;
+    color: #CCDBDC;
+}
+/* --------------FOOTER----------------- */
 footer{
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 10%;
-    background-color: #003249;
+    background-color: #80CED7;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: #CCDBDC solid 1px;
 }
 footer h3{
-    color: #CCDBDC;
+    color: #003249;
     text-decoration: none;
     padding: 5px;
 }
+#gmail{
+    margin-right: 10px;
+}
+#rep{
+    margin-left: 10px;
+}
 footer a{
-    color: #CCDBDC;
+    color: #003249;
     text-decoration: none;
 }
