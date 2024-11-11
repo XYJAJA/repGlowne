@@ -22,7 +22,8 @@ header{
     height: 15%;
     box-sizing: border-box;
     border-bottom: #0D2B1D solid 1px;
-    
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,6 +48,8 @@ main{
     box-shadow: 0px 0px 20px 2px;
 }
 #aboutMeTitle{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #cfafaf;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +57,7 @@ main{
     border-bottom: solid 1px #0D2B1D ;
 }
 #aboutMeMain p{
-    margin: 0% 5% 5% 5%;   
+    margin: 2% 5% 5% 5%;   
 }
 #aboutMeMain{
     width: 100%;
@@ -65,53 +68,6 @@ main{
     font-size: 1.4rem;
      
     box-sizing: border-box;
-}
-
-/* --------------myProjects--------------- */
-#myProjects{
-    width: 80%;
-    height: auto;
-    background-color: #E1D3CC;
-    margin: 5% 10% 5% 10%;
-    display: block;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px 2px;
-    box-sizing: border-box;
-}
-#myProjectsTitle{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: solid 1px #0D2B1D;
-}
-#projectExample{
-    width: 90%;
-    height: 300px;
-    padding: 5%;
-}
-.project{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:30%;
-    height: 90px;
-    
-    
-    background-color: #D7A9A8;
-    border-radius: 15px;
-    border: solid 1px #D7A9A8;
-    
-    box-shadow: 0px 0px 20px 2px;
-    
-}
-.project:hover{
-    border: solid 1px;
-}
-.project a{
-    text-decoration: none;
-    color: #1E1E1E;
 }
 /* --------------mySkils---------------- */
 #mySkills{
@@ -131,22 +87,27 @@ main{
     justify-content: center;
     align-items: center;
     border-bottom: solid 1px #0D2B1D;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #cfafaf;
 }
 #skills{
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     height: auto;
     padding: 5%;
 }
 .skill{
-    background-position: center;background-size: cover;
+    background-position: center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     width:20%;
     height: 90px;
     
-    margin: 1%;
+    margin: 1% 5% 1% 1%;
     
     background-color: #D7A9A8;
     border-radius: 15px;
@@ -179,12 +140,61 @@ main{
     display: block;
     opacity: 1;
   }
+/* --------------myProjects--------------- */
+#myProjects{
+    width: 80%;
+    height: auto;
+    background-color: #E1D3CC;
+    margin: 5% 10% 5% 10%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px;
+    box-sizing: border-box;
+}
+#myProjectsTitle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #0D2B1D;
+    background-color: #cfafaf;
+    border-radius: 10px 10px 0px 0px;
+}
+#projectExample{
+    width: 90%;
+    height: 300px;
+    padding: 5%;
+}
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    height: 90px;
+    
+    
+    background-color: #cfafaf;
+    border-radius: 15px;
+    border: solid 1px #cfafaf;
+    
+    box-shadow: 0px 0px 20px 2px;
+    
+}
+.project:hover{
+    border: solid 1px;
+}
+.project a{
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
 /* --------------FOOTER----------------- */
 
 footer{
     width: 80%;
     height: 50px;
-    background-color: #D0D0D0;
+    background-color: #cfafaf;
     margin: 5% 10% 10px 10%;
 
     border-radius: 10px;
