@@ -1,24 +1,27 @@
 
 /* --------------------------------GŁOWNY-------------------------------- */
 body{
-    
+    color: #1E1E1E;
+    overflow-y: none;
     margin: 0;
     padding: 0;
-    background-color: #9AD1D4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #7E102C;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%237E102C' cx='50' cy='0' r='50'/%3E%3Cg fill='%23841f31' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%238a2b36' cx='50' cy='100' r='50'/%3E%3Cg fill='%238f353c' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23953f42' cx='50' cy='200' r='50'/%3E%3Cg fill='%239a4948' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%239f534e' cx='50' cy='300' r='50'/%3E%3Cg fill='%23a45c55' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a9655c' cx='50' cy='400' r='50'/%3E%3Cg fill='%23ae6e64' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b3776c' cx='50' cy='500' r='50'/%3E%3Cg fill='%23b88174' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bd8a7d' cx='50' cy='600' r='50'/%3E%3Cg fill='%23c19385' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c69c8f' cx='50' cy='700' r='50'/%3E%3Cg fill='%23cba598' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cfaea2' cx='50' cy='800' r='50'/%3E%3Cg fill='%23d4b7ac' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d8c1b6' cx='50' cy='900' r='50'/%3E%3Cg fill='%23ddcac1' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23E1D3CC' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header{
-    background-color: #CCDBDC;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23CCDBDC'/%3E%3Cstop offset='1' stop-color='%23007EA7'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    
+    background-color: #E1D3CC;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23E1D3CC' cx='50' cy='0' r='50'/%3E%3Cg fill='%23ddcac1' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d8c1b6' cx='50' cy='100' r='50'/%3E%3Cg fill='%23d4b7ac' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cfaea2' cx='50' cy='200' r='50'/%3E%3Cg fill='%23cba598' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c69c8f' cx='50' cy='300' r='50'/%3E%3Cg fill='%23c19385' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bd8a7d' cx='50' cy='400' r='50'/%3E%3Cg fill='%23b88174' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b3776c' cx='50' cy='500' r='50'/%3E%3Cg fill='%23ae6e64' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a9655c' cx='50' cy='600' r='50'/%3E%3Cg fill='%23a45c55' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%239f534e' cx='50' cy='700' r='50'/%3E%3Cg fill='%239a4948' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23953f42' cx='50' cy='800' r='50'/%3E%3Cg fill='%238f353c' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%238a2b36' cx='50' cy='900' r='50'/%3E%3Cg fill='%23841f31' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%237E102C' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     position: absolute;
     top: 0;
     width: 100%;
     height: 15%;
     box-sizing: border-box;
-    border-bottom: #CCDBDC solid 1px;
-    color: #003249;
+    border-bottom: #0D2B1D solid 1px;
     
     display: flex;
     align-items: center;
@@ -29,49 +32,170 @@ header{
 main{
     height: 85%;
     width: 100%;
+    display: block;
     position: absolute;
     top: 15%;
 }
-
-/* --------------PROJECTS----------------- */
-#projects{
+/* --------------aboutMe------------------ */
+#aboutMe{
+    width: 80%;
+    height: auto;
+    background-color: #E1D3CC;
+    margin: 5% 10% 5% 10%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px;
+}
+#aboutMeTitle{
     display: flex;
-    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-bottom: solid 1px #0D2B1D ;
+}
+#aboutMeMain p{
+    margin: 0% 5% 5% 5%;   
+}
+#aboutMeMain{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+     
+    box-sizing: border-box;
 }
 
+/* --------------myProjects--------------- */
+#myProjects{
+    width: 80%;
+    height: auto;
+    background-color: #E1D3CC;
+    margin: 5% 10% 5% 10%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px;
+    box-sizing: border-box;
+}
+#myProjectsTitle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #0D2B1D;
+}
+#projectExample{
+    width: 90%;
+    height: 300px;
+    padding: 5%;
+}
 .project{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
-    height: 150px;
-    margin: 10px; 
+    width:30%;
+    height: 90px;
     
-    background-color: #003249;
+    
+    background-color: #D7A9A8;
     border-radius: 15px;
-    border: solid 1px #003249;
+    border: solid 1px #D7A9A8;
     
+    box-shadow: 0px 0px 20px 2px;
     
-    
+}
+.project:hover{
+    border: solid 1px;
 }
 .project a{
     text-decoration: none;
-    color: #CCDBDC;
+    color: #1E1E1E;
 }
-/* --------------FOOTER----------------- */
-footer{
-    position: absolute;
-    bottom: 0;
+/* --------------mySkils---------------- */
+#mySkills{
+    width: 80%;
+    height: auto;
+    background-color: #E1D3CC;
+    margin: 5% 10% 5% 10%;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px;
+    box-sizing: border-box;
+}
+#mySkillsTitle{
     width: 100%;
-    height: 10%;
-    background-color: #80CED7;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #0D2B1D;
+}
+#skills{
+    display: inline-flex;
+    width: 90%;
+    height: auto;
+    padding: 5%;
+}
+.skill{
+    background-position: center;background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: #CCDBDC solid 1px;
+    width:20%;
+    height: 90px;
+    
+    margin: 1%;
+    
+    background-color: #D7A9A8;
+    border-radius: 15px;
+    border: solid 1px #D7A9A8;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 1px;
+    
+}
+
+ .tooltip {
+    display: block;
+    visibility: visible;
+    opacity: 0;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    
+    left: 70%;
+    
+    transition: opacity 0.8s;
+    z-index: 1;
+  }
+
+  /* Wyświetlanie tooltipa przy najechaniu */
+  .skill:hover .tooltip {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+  }
+/* --------------FOOTER----------------- */
+
+footer{
+    width: 80%;
+    height: 50px;
+    background-color: #D0D0D0;
+    margin: 5% 10% 10px 10%;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer h3{
-    color: #003249;
+    color: #1E1E1E;
     text-decoration: none;
     padding: 5px;
 }
@@ -82,6 +206,6 @@ footer h3{
     margin-left: 10px;
 }
 footer a{
-    color: #003249;
+    color: #1E1E1E;
     text-decoration: none;
 }
